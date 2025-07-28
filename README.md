@@ -9,6 +9,16 @@ A simple Banking  System implemented in TypeScript using OOPS principles.
 - **Account Balance**: Load Account Balance for a Company .
 - **Transactions**: Perform Transactions for that company.
 
+## Assumptions
+ -1. The account number is unique for each company
+ -2. The transaction amount should not be greater than the account balance
+ -3. The from account number and to account number should not be the same
+ -4. The transaction should be processed only if both from and to account numbers exist in the account array
+ -5. The transaction should be processed only if the from account balance after transaction is greater than
+   or equal to zero
+ -6. The transaction should be processed only if the to account number exists in the account array
+ -7. The balance of the from account number should be updated after the transaction
+
 ## Technologies Used
 
 - TypeScript
