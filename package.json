@@ -1,0 +1,29 @@
+{
+  "name": "mablebackendcodetest",
+  "version": "1.0.0",
+  "description": "Node JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon dist/src/index.js",
+    "test": "jest --coverage --runInBand --detectOpenHandles --forceExit ",
+    "build": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.1.0",
+    "jest": "^30.0.5",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  }
+}
